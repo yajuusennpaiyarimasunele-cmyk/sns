@@ -2,7 +2,7 @@ const OWNER = "yajuusennpaiyarimasunele-cmyk
 ";
 const REPO = "sns";
 const FILE_PATH = "posts.json";
-const TOKEN = "YOUR_GITHUB_TOKEN";  // ★ GitHub Token を入れる
+const TOKEN = "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";  // ★ GitHub Token を入れる
 
 async function loadPosts() {
     const res = await fetch(`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${FILE_PATH}`);
